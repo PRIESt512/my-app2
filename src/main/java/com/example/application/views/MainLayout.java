@@ -15,6 +15,7 @@ import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.orderedlayout.FlexComponent;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
+import com.vaadin.flow.component.page.Push;
 import com.vaadin.flow.component.tabs.Tab;
 import com.vaadin.flow.component.tabs.Tabs;
 import com.vaadin.flow.component.tabs.TabsVariant;
@@ -34,6 +35,7 @@ import com.vaadin.flow.component.avatar.Avatar;
 @PWA(name = "My App", shortName = "My App", enableInstallPrompt = false)
 @Theme(themeFolder = "myapp")
 @PageTitle("Main")
+@Push
 public class MainLayout extends AppLayout {
 
     public static class MenuItemInfo {
